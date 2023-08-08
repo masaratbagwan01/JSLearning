@@ -46,6 +46,13 @@ var words=addition('Hello', 'Good', 'Morning')
 console.log('addition is:-', words);
 console.log('-----------------------------------------------');
 
+
+function addition(arg1, arg2, arg3, arg4) {
+    console.log(arg1,arg2,arg3+arg4);
+    var result= arg1+arg2+arg3+arg4;
+    return result
+}
+
 function show(){
     console.log('Bank Name:- CITI Bank Account Number:3456782345 Location : pune pin code : 431202');
     console.log('Bank Name :- Axis Account Number : 7856782345 Location : Mumbai Pin Code : 441202');
